@@ -1,17 +1,59 @@
 <!DOCTYPE html>
 
 <html>
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 
-  <head><title>Hugh Smith</title></head>
+  <head>
+    <title>Hugh Smith</title>
+    <style>
+      .container {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+      }
+
+      .container img {
+        width: 100%;
+        height: auto;
+      }
+
+      .container .btn {
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #26A99F;
+        color: white;
+        font-size: 16px;
+        padding: 16px 30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      .container .btn:hover {
+        background-color: black;
+        color: white;
+      }    
+    </style>
+  </head>
   
   <body>
-    <button onclick="add_image();">bee time uh oh</button>
-    <form method="get" action="../Hugh Smith - Resume.pdf">
-      <button type="submit">Download!</button>
-    </form>
+    <div class="container">
+      <img src="mural.PNG" alt="mural" style="width:100%">
+      <form method="get" action="../Hugh Smith - Resume.pdf">
+        <button class="btn" type="submit">Download!</button>
+      </form>
+    </div>
+
+    
+    
+    
     <script src="scripts/main.js"></script>
   </body>
 
