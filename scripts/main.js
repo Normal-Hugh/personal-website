@@ -1,1 +1,4 @@
-alert("it's a website");
+let myButton = document.querySelector('button');
+myButton.onclick = function() {
+   alert("you clicked the button");
+}
