@@ -3,9 +3,9 @@
 //    alert("you clicked the button");
 // }
 
-function add_google_logo() {
+function add_image() {
   var src = "../Bee.jpg";
-  show_image("../Bee.jpg", 276,110, "Google Logo");
+  show_image("../Bee.jpg", 276,110, "Bee");
 }
 
 
