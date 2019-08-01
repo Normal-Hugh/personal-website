@@ -9,7 +9,13 @@ function add_image() {
     var h = screen.height;
   } else {
     var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    if (w > 1000) {
+      w = 1000;
+    }
     var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+    if (h > 1000) {
+      h = 1000;
+    }
   }
   var src = "../Bee.JPG";
   show_bee("../Bee.JPG", w, (0.5*h), "Bee");
