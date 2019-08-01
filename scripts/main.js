@@ -4,8 +4,8 @@
 // }
 
 function add_image() {
-  var src = "../Bee.jpg";
-  show_image("../Bee.jpg", 276,110, "Bee");
+  var src = "../Bee.JPG";
+  show_image("../Bee.JPG", 301, 311, "Bee");
 }
 
 
