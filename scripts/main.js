@@ -18,7 +18,7 @@ function add_image() {
     }
   }
   var src = "../Bee.JPG";
-  show_bee("../Bee.JPG", w, (0.5*h), "Bee");
+  show_bee("../Bee.JPG", w, h, "Bee");
 }
 //bee is 301W x 311H
 
