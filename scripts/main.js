@@ -1,7 +1,7 @@
-let myButton = document.querySelector('button');
-myButton.onclick = function() {
-   alert("you clicked the button");
-}
+// let myButton = document.querySelector('button');
+// myButton.onclick = function() {
+//    alert("you clicked the button");
+// }
 
 function test_image(src, width, height, alt) {
    var img = document.createElement("img");
