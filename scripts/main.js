@@ -4,17 +4,21 @@
 // }
 
 function add_image() {
+  var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+  var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
   var src = "../Bee.JPG";
-  show_image("../Bee.JPG", 301, 311, "Bee");
+  show_bee("../Bee.JPG", w, (0.5*h), "Bee");
 }
+//bee is 301W x 311H
 
-
-function show_image(src, width, height, alt) {
+function show_bee(src, width, height, alt) {
+  
   var img = document.createElement("img");
   img.src = src;
   img.width = width;
   img.height = height;
   img.alt = alt;
   document.body.appendChild(img);
+  
 }
 
