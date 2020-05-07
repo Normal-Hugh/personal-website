@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          hugh.business
+          smith.hughb@gmail.com
         </p>
       </header>
     </div>
